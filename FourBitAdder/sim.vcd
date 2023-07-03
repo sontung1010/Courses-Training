@@ -1,0 +1,295 @@
+$date
+	Fri Apr 14 17:01:38 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module AddTest_v $end
+$var wire 5 ! Output [4:0] $end
+$var reg 1 " Btn0 $end
+$var reg 1 # Sw0 $end
+$var reg 1 $ Sw1 $end
+$var reg 1 % Sw2 $end
+$var reg 1 & Sw3 $end
+$var reg 1 ' Sw4 $end
+$var reg 1 ( Sw5 $end
+$var reg 1 ) Sw6 $end
+$var reg 1 * Sw7 $end
+$scope module uut $end
+$var wire 1 " Btn0 $end
+$var wire 1 # Sw0 $end
+$var wire 1 $ Sw1 $end
+$var wire 1 % Sw2 $end
+$var wire 1 & Sw3 $end
+$var wire 1 ' Sw4 $end
+$var wire 1 ( Sw5 $end
+$var wire 1 ) Sw6 $end
+$var wire 1 * Sw7 $end
+$var wire 4 + Sum [3:0] $end
+$var wire 5 , Output [4:0] $end
+$var wire 4 - OpY [3:0] $end
+$var wire 4 . OpX [3:0] $end
+$var wire 5 / DispData [4:0] $end
+$var wire 1 0 Cout $end
+$var wire 1 1 Cin $end
+$scope module Add1 $end
+$var wire 4 2 RCOSum [3:0] $end
+$var wire 1 0 RCOCarryOut $end
+$var wire 1 1 RCOCarryIn $end
+$var wire 4 3 RCOAddY [3:0] $end
+$var wire 4 4 RCOAddX [3:0] $end
+$var wire 1 5 C3 $end
+$var wire 1 6 C2 $end
+$var wire 1 7 C1 $end
+$scope module RCO_FA0 $end
+$var wire 1 7 Cout $end
+$var wire 1 8 Xin $end
+$var wire 1 9 Yin $end
+$var wire 1 : Sum $end
+$var wire 1 ; S1 $end
+$var wire 1 1 Cin $end
+$var wire 1 < C2 $end
+$var wire 1 = C1 $end
+$scope module HA1 $end
+$var wire 1 = CarryHalf $end
+$var wire 1 ; SumHalf $end
+$var wire 1 8 Xhalf $end
+$var wire 1 9 Yhalf $end
+$upscope $end
+$scope module HA2 $end
+$var wire 1 < CarryHalf $end
+$var wire 1 : SumHalf $end
+$var wire 1 ; Xhalf $end
+$var wire 1 1 Yhalf $end
+$upscope $end
+$upscope $end
+$scope module RCO_FA1 $end
+$var wire 1 7 Cin $end
+$var wire 1 6 Cout $end
+$var wire 1 > Xin $end
+$var wire 1 ? Yin $end
+$var wire 1 @ Sum $end
+$var wire 1 A S1 $end
+$var wire 1 B C2 $end
+$var wire 1 C C1 $end
+$scope module HA1 $end
+$var wire 1 C CarryHalf $end
+$var wire 1 A SumHalf $end
+$var wire 1 > Xhalf $end
+$var wire 1 ? Yhalf $end
+$upscope $end
+$scope module HA2 $end
+$var wire 1 B CarryHalf $end
+$var wire 1 @ SumHalf $end
+$var wire 1 A Xhalf $end
+$var wire 1 7 Yhalf $end
+$upscope $end
+$upscope $end
+$scope module RCO_FA2 $end
+$var wire 1 6 Cin $end
+$var wire 1 5 Cout $end
+$var wire 1 D Xin $end
+$var wire 1 E Yin $end
+$var wire 1 F Sum $end
+$var wire 1 G S1 $end
+$var wire 1 H C2 $end
+$var wire 1 I C1 $end
+$scope module HA1 $end
+$var wire 1 I CarryHalf $end
+$var wire 1 G SumHalf $end
+$var wire 1 D Xhalf $end
+$var wire 1 E Yhalf $end
+$upscope $end
+$scope module HA2 $end
+$var wire 1 H CarryHalf $end
+$var wire 1 F SumHalf $end
+$var wire 1 G Xhalf $end
+$var wire 1 6 Yhalf $end
+$upscope $end
+$upscope $end
+$scope module RCO_FA3 $end
+$var wire 1 5 Cin $end
+$var wire 1 0 Cout $end
+$var wire 1 J Xin $end
+$var wire 1 K Yin $end
+$var wire 1 L Sum $end
+$var wire 1 M S1 $end
+$var wire 1 N C2 $end
+$var wire 1 O C1 $end
+$scope module HA1 $end
+$var wire 1 O CarryHalf $end
+$var wire 1 M SumHalf $end
+$var wire 1 J Xhalf $end
+$var wire 1 K Yhalf $end
+$upscope $end
+$scope module HA2 $end
+$var wire 1 N CarryHalf $end
+$var wire 1 L SumHalf $end
+$var wire 1 M Xhalf $end
+$var wire 1 5 Yhalf $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module DO $end
+$var wire 5 P DataIn [4:0] $end
+$var wire 5 Q DataOut [4:0] $end
+$upscope $end
+$scope module In0 $end
+$var wire 1 " Btn0 $end
+$var wire 1 1 Cin $end
+$var wire 1 # Sw0 $end
+$var wire 1 $ Sw1 $end
+$var wire 1 % Sw2 $end
+$var wire 1 & Sw3 $end
+$var wire 1 ' Sw4 $end
+$var wire 1 ( Sw5 $end
+$var wire 1 ) Sw6 $end
+$var wire 1 * Sw7 $end
+$var wire 4 R InputY [3:0] $end
+$var wire 4 S InputX [3:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 S
+b0 R
+b11110 Q
+b1 P
+0O
+0N
+0M
+0L
+0K
+0J
+0I
+0H
+0G
+0F
+0E
+0D
+0C
+0B
+0A
+0@
+0?
+0>
+0=
+0<
+0;
+1:
+09
+08
+07
+06
+05
+b0 4
+b0 3
+b1 2
+11
+00
+b1 /
+b0 .
+b0 -
+b11110 ,
+b1 +
+0*
+0)
+0(
+0'
+0&
+0%
+0$
+0#
+0"
+b11110 !
+$end
+#2100000
+b11100 !
+b11100 ,
+b11100 Q
+b11 /
+b11 P
+b11 +
+b11 2
+1@
+1A
+1>
+b10 .
+b10 4
+b10 S
+1$
+#4100000
+b10100 !
+b10100 ,
+b10100 Q
+b1011 /
+b1011 P
+b1011 +
+b1011 2
+1L
+1M
+1J
+b1010 .
+b1010 4
+b1010 S
+1&
+#5100000
+1F
+16
+b10011 !
+b10011 ,
+b10011 Q
+0@
+1B
+17
+b1100 /
+b1100 P
+b1100 +
+b1100 2
+0:
+1<
+1;
+19
+b1 -
+b1 3
+b1 R
+1'
+#8100000
+b1011 !
+b1011 ,
+b1011 Q
+b100 +
+b100 2
+0L
+b10100 /
+b10100 P
+10
+0M
+1O
+1K
+b1001 -
+b1001 3
+b1001 R
+1*
+#9100000
+0F
+06
+1@
+0B
+b1100 !
+b1100 ,
+b1100 Q
+07
+0<
+b10011 /
+b10011 P
+b11 +
+b11 2
+1:
+01
+1"
