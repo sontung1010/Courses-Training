@@ -1,0 +1,2 @@
+../Src/adc.c:19:6:pa4_adc1_init	4	static
+../Src/adc.c:49:10:adc_get_data	4	static

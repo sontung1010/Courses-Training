@@ -1,0 +1,4 @@
+/home/st/STM32CubeIDE/workspace_1.12.1/chip_headers/CMSIS/Include/core_cm7.h:1896:22:__NVIC_EnableIRQ	16	static
+../Src/adc.c:21:6:pa4_adc1_interrupt_init	8	static
+../Src/adc.c:57:6:pa4_adc1_init	4	static
+../Src/adc.c:87:10:adc_get_data	4	static

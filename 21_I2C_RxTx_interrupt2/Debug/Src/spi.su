@@ -1,0 +1,5 @@
+/home/st/STM32CubeIDE/workspace_1.12.1/chip_headers/CMSIS/Include/core_cm7.h:1896:22:__NVIC_EnableIRQ	16	static
+../Src/spi.c:8:6:spi1_config	8	static
+../Src/spi.c:96:6:spi3_config	8	static
+../Src/spi.c:181:6:spi1_activate	4	static
+../Src/spi.c:187:6:spi3_activate	4	static

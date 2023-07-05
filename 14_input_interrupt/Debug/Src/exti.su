@@ -1,0 +1,2 @@
+/home/st/STM32CubeIDE/workspace_1.12.1/chip_headers/CMSIS/Include/core_cm7.h:1896:22:__NVIC_EnableIRQ	16	static
+../Src/exti.c:13:6:pc13_exti_init	8	static
