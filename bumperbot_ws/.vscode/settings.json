@@ -1,0 +1,12 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/opt/ros/noetic/lib/python3/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/opt/ros/noetic/lib/python3/dist-packages",
+        "./src/bumperbot_examples/src",
+        "./src/bumperbot_controller/src",
+        "./src/bumperbot_localization/src"
+    ],
+    "cmake.configureOnOpen": true
+}

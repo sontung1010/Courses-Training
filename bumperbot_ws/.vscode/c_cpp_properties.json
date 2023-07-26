@@ -1,0 +1,25 @@
+{
+    "configurations": [
+        {
+            "browse": {
+                "databaseFilename": "${default}",
+                "limitSymbolsToIncludedHeaders": false
+            },
+            "includePath": [
+                "/opt/ros/noetic/include/**",
+                "/home/st/Course-Training/Udemy_ROS_self_driving/bumperbot_ws/src/bumperbot_examples/include/**",
+                "/usr/include/**",
+                "/opt/ros/noetic/include",
+                "${workspaceFolder}/src/bumperbot_controller/include",
+                "${workspaceFolder}/devel/include",
+                "${workspaceFolder}/src/bumperbot_localization/include"
+            ],
+            "name": "ROS",
+            "intelliSenseMode": "gcc-x64",
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "gnu11",
+            "cppStandard": "c++14"
+        }
+    ],
+    "version": 4
+}
