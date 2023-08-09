@@ -4,8 +4,8 @@ import smtplib
 import time
 
 
-MY_EMAIL = "tungpython1@gmail.com"
-MY_PASSWORD = "edkstlrkqrdlzwfv"
+MY_EMAIL = ""
+MY_PASSWORD = ""
 MY_LAT = 42.2808
 MY_LONG = 83.7430
 
