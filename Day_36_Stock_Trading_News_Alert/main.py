@@ -64,7 +64,7 @@ if abs(diff_percent) > 0.5:
     for article in formmatted_articles:
         message = client.messages.create(
             body=article,
-            from_="+18449604106",
-            to="+19097390205"
+            from_="",
+            to=""
         )
         print(message.status)
