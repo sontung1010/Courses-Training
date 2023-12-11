@@ -1,0 +1,1 @@
+var modelInfo = {model:"twofourbit_adder"};var modelHierarchy=[{model:"twofourbit_adder",relativePath:"_internal.html",parent:"null"},];
